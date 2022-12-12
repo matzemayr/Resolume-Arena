@@ -9,7 +9,7 @@
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="Head Projection 1"/>
 					<Param name="Enabled" T="BOOL" default="1" value="1"/>
-					<Param name="Hidden" T="BOOL" default="0" value="0"/>
+					<Param name="Hidden" T="BOOL" default="0" value="1"/>
 				</Params>
 				<Params name="Output">
 					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
@@ -589,10 +589,10 @@
 							<Param name="Black BG" T="BOOL" default="0" value="1"/>
 						</Params>
 						<InputRect orientation="0">
-							<v x="1052" y="506"/>
-							<v x="1179.066162109375" y="506"/>
-							<v x="1179.066162109375" y="1000"/>
-							<v x="1052" y="1000"/>
+							<v x="1052" y="507"/>
+							<v x="1179.066162109375" y="507"/>
+							<v x="1179.066162109375" y="1001"/>
+							<v x="1052" y="1001"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="1118" y="616"/>
@@ -602,19 +602,19 @@
 						</OutputRect>
 						<InputContour closed="1">
 							<points>
-								<v x="1159" y="506"/>
-								<v x="1111" y="548"/>
-								<v x="1112" y="579"/>
-								<v x="1115.728271484375" y="734.074951171875"/>
-								<v x="1143" y="740"/>
-								<v x="1139" y="798"/>
-								<v x="1132" y="831"/>
-								<v x="1109" y="907"/>
-								<v x="1052" y="1000"/>
-								<v x="1081" y="984"/>
-								<v x="1115" y="932"/>
-								<v x="1172.02880859375" y="710.2733154296875"/>
-								<v x="1179.066162109375" y="660.6865234375"/>
+								<v x="1159" y="507"/>
+								<v x="1111" y="549"/>
+								<v x="1112" y="580"/>
+								<v x="1115.728271484375" y="735.074951171875"/>
+								<v x="1143" y="741"/>
+								<v x="1139" y="799"/>
+								<v x="1132" y="832"/>
+								<v x="1109" y="908"/>
+								<v x="1052" y="1001"/>
+								<v x="1081" y="985"/>
+								<v x="1115" y="933"/>
+								<v x="1172.02880859375" y="711.2733154296875"/>
+								<v x="1179.066162109375" y="661.6865234375"/>
 							</points>
 							<segments>LLLLLLLLLLLLL</segments>
 						</InputContour>
@@ -639,31 +639,24 @@
 					</Polygon>
 				</layers>
 				<OutputDevice>
-					<OutputDeviceVirtual name="Head Projection 1" deviceId="VirtualHead Projection 1" idHash="9087334141548216891" width="800" height="600">
+					<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="1920" height="1200">
 						<Params name="Params">
-							<ParamRange name="Width" T="DOUBLE" default="800" value="800">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.048770066532381126101"/>
+							<ParamRange name="Delay" T="DOUBLE" default="0" value="0">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
 								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="1" max="16384"/>
-								<ValueRange name="minMax" min="1" max="16384"/>
-								<ValueRange name="startStop" min="1" max="16384"/>
-							</ParamRange>
-							<ParamRange name="Height" T="DOUBLE" default="600" value="600">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.036562290178843923072"/>
-								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="1" max="16384"/>
-								<ValueRange name="minMax" min="1" max="16384"/>
-								<ValueRange name="startStop" min="1" max="16384"/>
+								<ValueRange name="defaultRange" min="0" max="0.10000000149011611938"/>
+								<ValueRange name="minMax" min="0" max="0.10000000149011611938"/>
+								<ValueRange name="startStop" min="0" max="0.10000000149011611938"/>
 							</ParamRange>
 						</Params>
-					</OutputDeviceVirtual>
+					</OutputDeviceDisplay>
 				</OutputDevice>
 			</Screen>
 			<Screen name="Screen 1" uniqueId="1670537119034">
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="Screen 1"/>
 					<Param name="Enabled" T="BOOL" default="1" value="0"/>
-					<Param name="Hidden" T="BOOL" default="0" value="1"/>
+					<Param name="Hidden" T="BOOL" default="0" value="0"/>
 				</Params>
 				<Params name="Output">
 					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
@@ -742,7 +735,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:1" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 							<Param name="SoftEdgeEnable" T="BOOL" default="0" value="0"/>
@@ -867,7 +860,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -958,7 +951,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1043,7 +1036,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1124,7 +1117,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1205,7 +1198,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1286,7 +1279,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1371,7 +1364,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1454,7 +1447,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1539,7 +1532,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1622,7 +1615,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1707,7 +1700,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1788,7 +1781,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1869,7 +1862,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -1952,7 +1945,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -2035,7 +2028,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -2128,7 +2121,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -2221,7 +2214,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -2312,7 +2305,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -2363,10 +2356,10 @@
 							<v x="708.66650390625" y="1002"/>
 						</InputRect>
 						<OutputRect orientation="0">
-							<v x="708.66650390625" y="675.666748046875"/>
-							<v x="862" y="675.666748046875"/>
-							<v x="862" y="1002"/>
-							<v x="708.66650390625" y="1002"/>
+							<v x="708.66650390625" y="674.666748046875"/>
+							<v x="862" y="674.666748046875"/>
+							<v x="862" y="1001"/>
+							<v x="708.66650390625" y="1001"/>
 						</OutputRect>
 						<InputContour closed="1">
 							<points>
@@ -2383,14 +2376,14 @@
 						</InputContour>
 						<OutputContour closed="1">
 							<points>
-								<v x="708.66656494140625" y="675.666748046875"/>
-								<v x="718" y="723.000244140625"/>
-								<v x="785.3333740234375" y="936.33355712890625"/>
-								<v x="802.66668701171875" y="957.6668701171875"/>
-								<v x="837.3333740234375" y="988.33355712890625"/>
-								<v x="862" y="1002"/>
-								<v x="802" y="914"/>
-								<v x="773.7947998046875" y="839.3157958984375"/>
+								<v x="708.66656494140625" y="674.666748046875"/>
+								<v x="718" y="722.000244140625"/>
+								<v x="785.3333740234375" y="935.33355712890625"/>
+								<v x="802.66668701171875" y="956.6668701171875"/>
+								<v x="837.3333740234375" y="987.33355712890625"/>
+								<v x="862" y="1001"/>
+								<v x="802" y="913"/>
+								<v x="773.7947998046875" y="838.3157958984375"/>
 							</points>
 							<segments>LLLLLLLL</segments>
 						</OutputContour>
@@ -2401,7 +2394,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
