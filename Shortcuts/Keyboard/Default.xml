@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KeyboardShortcutPreset name="Default" presetId="-157420040">
+<KeyboardShortcutPreset name="Default" presetId="61006371">
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
 	<ShortcutManager name="KeyboardShortcutManagerShortcuts">
-		<Shortcut name="Shortcut" uniqueId="1647869610044" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/connectnextcolumn" translationType="1" allowedTranslationTypes="1"/>
-			<RawInputMessage key="271592256962561" value="0"/>
-		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610046" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/layers/3/select" translationType="1" allowedTranslationTypes="3"/>
 			<RawInputMessage key="219043332096" value="0"/>
@@ -144,6 +140,10 @@
 		<Shortcut name="Shortcut" uniqueId="1647869610062" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/connectprevcolumn" translationType="1" allowedTranslationTypes="1"/>
 			<RawInputMessage key="271587961995265" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610044" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/connectnextcolumn" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage key="271592256962561" value="0"/>
 		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610000" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/columns/2/connect" translationType="1" allowedTranslationTypes="3"/>
