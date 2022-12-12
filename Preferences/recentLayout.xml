@@ -35,6 +35,7 @@
 						</FlexContainer>
 						<FlexContainer panel_id="53" orientation="1">
 							<TabbedContainer panel_id="52">
+								<RenderQueue width_desired="350" height_desired="300"/>
 								<Slices width_desired="350" height_desired="300"/>
 								<Files width_desired="350" height_desired="300"/>
 								<Compositions width_desired="350" height_desired="300"/>
@@ -48,7 +49,6 @@
 		</Window>
 	</Desktop>
 	<HiddenPanels>
-		<RenderQueue unhide_panel_id="52" unhide_target_index="0" width_desired="350" height_desired="300"/>
 		<Shortcuts unhide_panel_id="52" unhide_target_index="0" width_desired="350" height_desired="300"/>
 		<ClipTime unhide_panel_id="53" unhide_target_index="0" width_desired="350" height_desired="70">
 			<Clocks>
@@ -93,7 +93,7 @@
 		<Param name="Show Clip Time" T="BOOL" default="0" value="0"/>
 		<Param name="Show Slices" T="BOOL" default="0" value="1"/>
 		<Param name="Show Files" T="BOOL" default="1" value="1"/>
-		<Param name="Show Render Queue" T="BOOL" default="0" value="0"/>
+		<Param name="Show Render Queue" T="BOOL" default="0" value="1"/>
 		<Param name="Clip Monitor Fold" T="BOOL" default="0" value="0"/>
 		<Param name="Layer Monitor Fold" T="BOOL" default="0" value="0"/>
 		<Param name="Layer Group Monitor Fold" T="BOOL" default="0" value="0"/>

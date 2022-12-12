@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Arena>
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
-	<Application name="Application" recentCompositions="/Users/marcel/Documents/Resolume Arena/Compositions/Projection Mapping Test mit Kopf.avc
+	<Application name="Application" recentCompositions="/Users/marcel/Documents/Resolume Arena/Compositions/User Tests.avc
+/Users/marcel/Documents/Resolume Arena/Compositions/Projection Mapping Test mit Kopf.avc
 /Users/marcel/Documents/Resolume Arena/Compositions/Untitled.avc
 /Users/marcel/Documents/Resolume Arena/Compositions/Example.avc
 /Users/marcel/Documents/Resolume Arena/Compositions/Prototyp Decke.avc
 /Users/marcel/Documents/Resolume Arena/Compositions/Prototyp.avc">
 		<Params name="Settings">
-			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Arena/default/Example.avc" value="/Users/marcel/Documents/Resolume Arena/Compositions/Projection Mapping Test mit Kopf.avc"/>
+			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Arena/default/Example.avc" value="/Users/marcel/Documents/Resolume Arena/Compositions/User Tests.avc"/>
 			<ParamRange name="DefaultCompositionWidth" T="DOUBLE" default="1920" value="1920">
 				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.019190191901919020911"/>
 			</ParamRange>

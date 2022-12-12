@@ -213,7 +213,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="3:3" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -385,10 +385,10 @@
 							<Param name="Black BG" T="BOOL" default="0" value="1"/>
 						</Params>
 						<InputRect orientation="0">
-							<v x="852.892578125" y="796.8594970703125"/>
-							<v x="1055.20654296875" y="796.8594970703125"/>
-							<v x="1055.20654296875" y="1032.892578125"/>
-							<v x="852.892578125" y="1032.892578125"/>
+							<v x="852.892578125" y="795.8594970703125"/>
+							<v x="1055.20654296875" y="795.8594970703125"/>
+							<v x="1055.20654296875" y="1031.892578125"/>
+							<v x="852.892578125" y="1031.892578125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="907" y="921"/>
@@ -398,22 +398,22 @@
 						</OutputRect>
 						<InputContour closed="1">
 							<points>
-								<v x="934.21484375" y="798.843017578125"/>
-								<v x="902.47930908203125" y="812.727294921875"/>
-								<v x="898.51239013671875" y="878.1817626953125"/>
-								<v x="884.6280517578125" y="898.0164794921875"/>
-								<v x="896.5289306640625" y="917.8511962890625"/>
-								<v x="872.72723388671875" y="951.5701904296875"/>
-								<v x="852.89251708984375" y="993.22314453125"/>
-								<v x="906.44622802734375" y="1024.9586181640625"/>
-								<v x="995.70245361328125" y="1032.892578125"/>
-								<v x="1055.20654296875" y="999.173583984375"/>
-								<v x="1029.4215087890625" y="937.6859130859375"/>
-								<v x="1003.6363525390625" y="919.834716796875"/>
-								<v x="1021.487548828125" y="894.049560546875"/>
-								<v x="1003.6363525390625" y="884.1322021484375"/>
-								<v x="995.70245361328125" y="802.8099365234375"/>
-								<v x="965.95037841796875" y="796.8594970703125"/>
+								<v x="934.21484375" y="797.843017578125"/>
+								<v x="902.47930908203125" y="811.727294921875"/>
+								<v x="898.51239013671875" y="877.1817626953125"/>
+								<v x="884.6280517578125" y="897.0164794921875"/>
+								<v x="896.5289306640625" y="916.8511962890625"/>
+								<v x="872.72723388671875" y="950.5701904296875"/>
+								<v x="852.89251708984375" y="992.22314453125"/>
+								<v x="906.44622802734375" y="1023.9586181640625"/>
+								<v x="995.70245361328125" y="1031.892578125"/>
+								<v x="1055.20654296875" y="998.173583984375"/>
+								<v x="1029.4215087890625" y="936.6859130859375"/>
+								<v x="1003.6363525390625" y="918.834716796875"/>
+								<v x="1021.487548828125" y="893.049560546875"/>
+								<v x="1003.6363525390625" y="883.1322021484375"/>
+								<v x="995.70245361328125" y="801.8099365234375"/>
+								<v x="965.95037841796875" y="795.8594970703125"/>
 							</points>
 							<segments>LLLLLLLLLLLLLLLL</segments>
 						</InputContour>
@@ -639,17 +639,24 @@
 					</Polygon>
 				</layers>
 				<OutputDevice>
-					<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="1920" height="1200">
+					<OutputDeviceVirtual name="Head Projection 1" deviceId="VirtualHead Projection 1" idHash="9087334141548216891" width="800" height="600">
 						<Params name="Params">
-							<ParamRange name="Delay" T="DOUBLE" default="0" value="0">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+							<ParamRange name="Width" T="DOUBLE" default="800" value="800">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.048770066532381126101"/>
 								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="0" max="0.10000000149011611938"/>
-								<ValueRange name="minMax" min="0" max="0.10000000149011611938"/>
-								<ValueRange name="startStop" min="0" max="0.10000000149011611938"/>
+								<ValueRange name="defaultRange" min="1" max="16384"/>
+								<ValueRange name="minMax" min="1" max="16384"/>
+								<ValueRange name="startStop" min="1" max="16384"/>
+							</ParamRange>
+							<ParamRange name="Height" T="DOUBLE" default="600" value="600">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.036562290178843923072"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="1" max="16384"/>
+								<ValueRange name="minMax" min="1" max="16384"/>
+								<ValueRange name="startStop" min="1" max="16384"/>
 							</ParamRange>
 						</Params>
-					</OutputDeviceDisplay>
+					</OutputDeviceVirtual>
 				</OutputDevice>
 			</Screen>
 			<Screen name="Screen 1" uniqueId="1670537119034">
