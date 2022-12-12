@@ -9,7 +9,7 @@
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="Head Projection 1"/>
 					<Param name="Enabled" T="BOOL" default="1" value="1"/>
-					<Param name="Hidden" T="BOOL" default="0" value="1"/>
+					<Param name="Hidden" T="BOOL" default="0" value="0"/>
 				</Params>
 				<Params name="Output">
 					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
@@ -639,7 +639,7 @@
 					</Polygon>
 				</layers>
 				<OutputDevice>
-					<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="1920" height="1200">
+					<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="3840" height="2160">
 						<Params name="Params">
 							<ParamRange name="Delay" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
