@@ -2,7 +2,7 @@
 <Layout version="2">
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
 	<Desktop>
-		<Window panel_id="63" main="1" full_screen="0" x="193" y="53" width="1920" height="1147">
+		<Window panel_id="63" main="1" full_screen="0" x="0" y="53" width="1920" height="1147">
 			<FlexContainer panel_id="64" orientation="0">
 				<FlexContainer panel_id="65" orientation="1">
 					<FlexContainer panel_id="62" height_desired="409" orientation="0">
