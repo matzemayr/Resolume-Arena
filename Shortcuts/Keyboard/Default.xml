@@ -1,47 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KeyboardShortcutPreset name="Default" presetId="104578736">
+<KeyboardShortcutPreset name="Default" presetId="-1731858862">
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
 	<ShortcutManager name="KeyboardShortcutManagerShortcuts">
-		<Shortcut name="Shortcut" uniqueId="1647869610078" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/clips/5/connect" translationType="8" allowedTranslationTypes="11"/>
-			<RawInputMessage key="360777252864" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869609998" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/columns/8/connect" translationType="1" allowedTranslationTypes="3"/>
-			<RawInputMessage key="180388626433" value="0"/>
-		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610050" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="1"/>
 			<Subtarget type="1" optionIndex="7"/>
 			<RawInputMessage key="197568495616" value="0"/>
 		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869609998" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/columns/8/connect" translationType="1" allowedTranslationTypes="3"/>
+			<RawInputMessage key="180388626433" value="0"/>
+		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869613229" paramNodeName="ParamEvent" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/columns/9/connect" translationType="1" allowedTranslationTypes="35"/>
 			<RawInputMessage key="171798691841" value="0"/>
 		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610020" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/tempocontroller/resync" translationType="1" allowedTranslationTypes="1"/>
-			<RawInputMessage key="201863462912" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610052" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/clips/3/connect" translationType="8" allowedTranslationTypes="11"/>
-			<RawInputMessage key="296352743424" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610060" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/layers/2/select" translationType="1" allowedTranslationTypes="3"/>
-			<RawInputMessage key="214748364800" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610006" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/clips/1/connect" translationType="8" allowedTranslationTypes="11"/>
-			<RawInputMessage key="347892350976" value="0"/>
+		<Shortcut name="Shortcut" uniqueId="1647869610078" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/clips/5/connect" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage key="360777252864" value="0"/>
 		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610018" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/selectprevdeck" translationType="1" allowedTranslationTypes="1"/>
 			<RawInputMessage key="271587961995273" value="0"/>
 		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610052" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/clips/3/connect" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage key="296352743424" value="0"/>
+		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610044" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/connectnextcolumn" translationType="1" allowedTranslationTypes="1"/>
 			<RawInputMessage key="271592256962561" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610006" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/clips/1/connect" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage key="347892350976" value="0"/>
 		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610000" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/columns/2/connect" translationType="1" allowedTranslationTypes="3"/>
@@ -50,27 +42,6 @@
 		<Shortcut name="Shortcut" uniqueId="1647869610002" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/columns/5/connect" translationType="1" allowedTranslationTypes="3"/>
 			<RawInputMessage key="158913789953" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610048" paramNodeName="" behaviour="0">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/solo" translationType="8" allowedTranslationTypes="11"/>
-			<RawInputMessage key="356482285568" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610040" paramNodeName="" behaviour="14338">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/master" translationType="8" allowedTranslationTypes="11"/>
-			<Subtarget type="5" optionIndex="-1"/>
-			<RawInputMessage key="330712481792" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610042" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/connectprevclip" translationType="8" allowedTranslationTypes="11"/>
-			<RawInputMessage key="271587961995264" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610066" paramNodeName="" behaviour="0">
-			<ShortcutPath name="InputPath" path="/composition/selectedlayer/bypassed" translationType="8" allowedTranslationTypes="11"/>
-			<RawInputMessage key="283467841536" value="0"/>
-		</Shortcut>
-		<Shortcut name="Shortcut" uniqueId="1647869610046" paramNodeName="" behaviour="1024">
-			<ShortcutPath name="InputPath" path="/composition/layers/3/select" translationType="1" allowedTranslationTypes="3"/>
-			<RawInputMessage key="219043332096" value="0"/>
 		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610024" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/columns/7/connect" translationType="1" allowedTranslationTypes="3"/>
@@ -113,6 +84,35 @@
 			<ShortcutPath name="InputPath" path="/composition/objects/1505384963468/video/effects/addsubtract/effect/g" translationType="2" allowedTranslationTypes="7"/>
 			<Subtarget type="5" optionIndex="-1"/>
 			<RawInputMessage key="304942678016" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610060" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/select" translationType="1" allowedTranslationTypes="3"/>
+			<RawInputMessage key="214748364800" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610048" paramNodeName="" behaviour="0">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/solo" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage key="356482285568" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610040" paramNodeName="" behaviour="14338">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/master" translationType="8" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="330712481792" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610042" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/connectprevclip" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage key="271587961995264" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610066" paramNodeName="" behaviour="0">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/bypassed" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage key="283467841536" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610046" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/select" translationType="1" allowedTranslationTypes="3"/>
+			<RawInputMessage key="219043332096" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1647869610020" paramNodeName="" behaviour="1024">
+			<ShortcutPath name="InputPath" path="/composition/tempocontroller/resync" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage key="201863462912" value="0"/>
 		</Shortcut>
 		<Shortcut name="Shortcut" uniqueId="1647869610028" paramNodeName="" behaviour="1024">
 			<ShortcutPath name="InputPath" path="/composition/selectedlayer/connectnextclip" translationType="8" allowedTranslationTypes="11"/>

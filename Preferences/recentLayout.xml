@@ -2,14 +2,14 @@
 <Layout version="2">
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
 	<Desktop>
-		<Window panel_id="63" main="1" full_screen="1" x="0" y="53" width="1920" height="1147">
+		<Window panel_id="63" main="1" full_screen="1" x="272" y="101" width="1728" height="1051">
 			<FlexContainer panel_id="64" orientation="0">
 				<FlexContainer panel_id="65" orientation="1">
-					<FlexContainer panel_id="62" height_desired="409" orientation="0">
+					<FlexContainer panel_id="62" height_desired="318" orientation="0">
 						<LayersAndClips width_desired="1000" height_desired="318"/>
 					</FlexContainer>
 					<Toolbar width_desired="1000" height_desired="36"/>
-					<FlexContainer panel_id="61" height_desired="670" orientation="0">
+					<FlexContainer panel_id="61" height_desired="665" orientation="0">
 						<FlexContainer panel_id="54" orientation="1">
 							<FlexContainer panel_id="55" orientation="0">
 								<TabbedContainer panel_id="56">
