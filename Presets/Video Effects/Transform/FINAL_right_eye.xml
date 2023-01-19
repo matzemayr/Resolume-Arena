@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Preset name="Left Eye Preset" uniqueId="17122039101699797593" className="TransformEffect" default="0">
+<Preset name="FINAL_right_eye" uniqueId="17122039101699797593" className="TransformEffect" default="0">
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
-	<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1673813236252" baseType="Effect">
+	<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1674125183123" baseType="Effect">
 		<Params name="Params">
 			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
-			<ParamRange name="Position X" T="DOUBLE" default="0" value="-124.515625">
-				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.49620008468627929688"/>
+			<ParamRange name="Position X" T="DOUBLE" default="0" value="115.248046875">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.50351709127426147461"/>
 				<BehaviourDouble name="BehaviourDouble"/>
 				<ValueRange name="defaultRange" min="-16384" max="16384"/>
 				<ValueRange name="minMax" min="-16384" max="16384"/>
 				<ValueRange name="startStop" min="-16384" max="16384"/>
 			</ParamRange>
-			<ParamRange name="Position Y" T="DOUBLE" default="0" value="189.90234375">
-				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.50579535961151123047"/>
+			<ParamRange name="Position Y" T="DOUBLE" default="0" value="193.2265625">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.50589680671691894531"/>
 				<BehaviourDouble name="BehaviourDouble"/>
 				<ValueRange name="defaultRange" min="-16384" max="16384"/>
 				<ValueRange name="minMax" min="-16384" max="16384"/>
 				<ValueRange name="startStop" min="-16384" max="16384"/>
 			</ParamRange>
-			<ParamRange name="Scale" T="DOUBLE" default="100" value="29.268772482014387748">
-				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.029268772482014388664"/>
+			<ParamRange name="Scale" T="DOUBLE" default="100" value="28.763039568345323715">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.028763039568345322855"/>
 				<BehaviourDouble name="BehaviourDouble"/>
 				<ValueRange name="defaultRange" min="0" max="1000"/>
 				<ValueRange name="minMax" min="0" max="1000"/>
@@ -82,7 +82,7 @@
 				<ValueRange name="startStop" min="-8192" max="8192"/>
 			</ParamRange>
 		</Params>
-		<AnimationSettings name="AnimationSettings" uniqueId="1673813236253"/>
+		<AnimationSettings name="AnimationSettings" uniqueId="1674125183124"/>
 		<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
 	</RenderPass>
 </Preset>

@@ -3445,7 +3445,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="3:4" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 							<Param name="SoftEdgeEnable" T="BOOL" default="0" value="0"/>
@@ -3564,130 +3564,9 @@
 							</Homography>
 						</Warper>
 					</Slice>
-					<Polygon uniqueId="1673813235801" IsVirgin="0">
+					<Polygon uniqueId="1674125200262" IsVirgin="0">
 						<Params name="Common">
 							<Param name="Name" T="STRING" default="Layer" value="Head Back"/>
-							<Param name="Enabled" T="BOOL" default="1" value="1"/>
-						</Params>
-						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
-							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
-							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
-						</Params>
-						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
-							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
-								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="-1" max="1"/>
-								<ValueRange name="minMax" min="-1" max="1"/>
-								<ValueRange name="startStop" min="-1" max="1"/>
-							</ParamRange>
-							<ParamRange name="Contrast" T="DOUBLE" default="0" value="0">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
-								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="-1" max="1"/>
-								<ValueRange name="minMax" min="-1" max="1"/>
-								<ValueRange name="startStop" min="-1" max="1"/>
-							</ParamRange>
-							<ParamRange name="Red" T="DOUBLE" default="0" value="0">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
-								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="-1" max="1"/>
-								<ValueRange name="minMax" min="-1" max="1"/>
-								<ValueRange name="startStop" min="-1" max="1"/>
-							</ParamRange>
-							<ParamRange name="Green" T="DOUBLE" default="0" value="0">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
-								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="-1" max="1"/>
-								<ValueRange name="minMax" min="-1" max="1"/>
-								<ValueRange name="startStop" min="-1" max="1"/>
-							</ParamRange>
-							<ParamRange name="Blue" T="DOUBLE" default="0" value="0">
-								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
-								<BehaviourDouble name="BehaviourDouble"/>
-								<ValueRange name="defaultRange" min="-1" max="1"/>
-								<ValueRange name="minMax" min="-1" max="1"/>
-								<ValueRange name="startStop" min="-1" max="1"/>
-							</ParamRange>
-							<Param name="Is Key" T="BOOL" default="0" value="0"/>
-							<Param name="Black BG" T="BOOL" default="0" value="0"/>
-						</Params>
-						<InputRect orientation="0">
-							<v x="695.546875" y="507.13397216796875"/>
-							<v x="1215.389892578125" y="507.13397216796875"/>
-							<v x="1215.389892578125" y="1046.996826171875"/>
-							<v x="695.546875" y="1046.996826171875"/>
-						</InputRect>
-						<OutputRect orientation="0">
-							<v x="710" y="580.758056640625"/>
-							<v x="1220" y="580.758056640625"/>
-							<v x="1220" y="1117"/>
-							<v x="710" y="1117"/>
-						</OutputRect>
-						<InputContour closed="1">
-							<points>
-								<v x="842.168212890625" y="1027.524658203125"/>
-								<v x="828.670654296875" y="1019.218505859375"/>
-								<v x="779.5257568359375" y="935.11846923828125"/>
-								<v x="729.950927734375" y="795.0118408203125"/>
-								<v x="695.546875" y="701.80908203125"/>
-								<v x="701.48931884765625" y="655.20806884765625"/>
-								<v x="704.906982421875" y="515.4810791015625"/>
-								<v x="729.9666748046875" y="520.7967529296875"/>
-								<v x="766.79693603515625" y="520.7967529296875"/>
-								<v x="874.25" y="519.278076171875"/>
-								<v x="1040.9559326171875" y="515.96600341796875"/>
-								<v x="1163.501220703125" y="513.758056640625"/>
-								<v x="1199.9337158203125" y="514.862060546875"/>
-								<v x="1215.389892578125" y="507.134002685546875"/>
-								<v x="1214.65380859375" y="709.904541015625"/>
-								<v x="1211.341796875" y="715.7926025390625"/>
-								<v x="1128.9090576171875" y="957.57159423828125"/>
-								<v x="1089.1644287109375" y="1005.4124755859375"/>
-								<v x="1074.076171875" y="1016.45257568359375"/>
-								<v x="1072.604248046875" y="1012.404541015625"/>
-								<v x="1011.1474609375" y="1046.9969482421875"/>
-								<v x="909.94598388671875" y="1046.629150390625"/>
-								<v x="874.24951171875" y="1030.4368896484375"/>
-								<v x="850.3292236328125" y="1025.65283203125"/>
-							</points>
-							<segments>LLLLLLLLLLLLLLLLLLLLLLLL</segments>
-						</InputContour>
-						<OutputContour closed="1">
-							<points>
-								<v x="848.168212890625" y="1094.524658203125"/>
-								<v x="834.670654296875" y="1086.218505859375"/>
-								<v x="789" y="997"/>
-								<v x="742" y="856"/>
-								<v x="710" y="768"/>
-								<v x="716" y="722"/>
-								<v x="726" y="587"/>
-								<v x="750" y="586"/>
-								<v x="791" y="589"/>
-								<v x="898" y="587"/>
-								<v x="1046.9559326171875" y="582.96600341796875"/>
-								<v x="1169.501220703125" y="580.758056640625"/>
-								<v x="1205.9337158203125" y="581.862060546875"/>
-								<v x="1220" y="585"/>
-								<v x="1219" y="776"/>
-								<v x="1216" y="793"/>
-								<v x="1136" y="1018"/>
-								<v x="1095.1644287109375" y="1072.4124755859375"/>
-								<v x="1082" y="1087"/>
-								<v x="1078" y="1080"/>
-								<v x="1010" y="1117"/>
-								<v x="915" y="1112"/>
-								<v x="877" y="1097"/>
-								<v x="856.3292236328125" y="1092.65283203125"/>
-							</points>
-							<segments>LLLLLLLLLLLLLLLLLLLLLLLL</segments>
-						</OutputContour>
-					</Polygon>
-					<Polygon uniqueId="1673813235027" IsVirgin="0">
-						<Params name="Common">
-							<Param name="Name" T="STRING" default="Layer" value="Head Front"/>
 							<Param name="Enabled" T="BOOL" default="1" value="1"/>
 						</Params>
 						<Params name="Input">
@@ -3742,10 +3621,10 @@
 							<v x="695.546875" y="1046.996826171875"/>
 						</InputRect>
 						<OutputRect orientation="0">
-							<v x="720" y="580.758056640625"/>
-							<v x="1220" y="580.758056640625"/>
-							<v x="1220" y="1117"/>
-							<v x="720" y="1117"/>
+							<v x="728" y="584.758056640625"/>
+							<v x="1228" y="584.758056640625"/>
+							<v x="1228" y="1121"/>
+							<v x="728" y="1121"/>
 						</OutputRect>
 						<InputContour closed="1">
 							<points>
@@ -3778,30 +3657,151 @@
 						</InputContour>
 						<OutputContour closed="1">
 							<points>
-								<v x="848.168212890625" y="1094.524658203125"/>
-								<v x="834.670654296875" y="1086.218505859375"/>
-								<v x="789" y="997"/>
-								<v x="752" y="867"/>
-								<v x="720" y="768"/>
-								<v x="721" y="707"/>
-								<v x="735" y="592"/>
-								<v x="750" y="586"/>
-								<v x="791" y="589"/>
-								<v x="898" y="587"/>
-								<v x="1046.9559326171875" y="582.96600341796875"/>
-								<v x="1169.501220703125" y="580.758056640625"/>
-								<v x="1205.9337158203125" y="581.862060546875"/>
-								<v x="1220" y="585"/>
-								<v x="1219" y="776"/>
-								<v x="1206" y="793"/>
-								<v x="1137" y="1006"/>
-								<v x="1095.1644287109375" y="1072.4124755859375"/>
-								<v x="1082" y="1087"/>
-								<v x="1078" y="1080"/>
-								<v x="1010" y="1117"/>
-								<v x="915" y="1112"/>
-								<v x="877" y="1097"/>
-								<v x="856.3292236328125" y="1092.65283203125"/>
+								<v x="856.168212890625" y="1098.524658203125"/>
+								<v x="842.670654296875" y="1090.218505859375"/>
+								<v x="797" y="1001"/>
+								<v x="760" y="871"/>
+								<v x="728" y="772"/>
+								<v x="729" y="711"/>
+								<v x="743" y="596"/>
+								<v x="758" y="590"/>
+								<v x="799" y="593"/>
+								<v x="906" y="591"/>
+								<v x="1054.9559326171875" y="586.96600341796875"/>
+								<v x="1177.501220703125" y="584.758056640625"/>
+								<v x="1213.9337158203125" y="585.862060546875"/>
+								<v x="1228" y="589"/>
+								<v x="1227" y="780"/>
+								<v x="1214" y="797"/>
+								<v x="1145" y="1010"/>
+								<v x="1103.1644287109375" y="1076.4124755859375"/>
+								<v x="1090" y="1091"/>
+								<v x="1086" y="1084"/>
+								<v x="1018" y="1121"/>
+								<v x="923" y="1116"/>
+								<v x="885" y="1101"/>
+								<v x="864.3292236328125" y="1096.65283203125"/>
+							</points>
+							<segments>LLLLLLLLLLLLLLLLLLLLLLLL</segments>
+						</OutputContour>
+					</Polygon>
+					<Polygon uniqueId="1673813235027" IsVirgin="0">
+						<Params name="Common">
+							<Param name="Name" T="STRING" default="Layer" value="Head Front"/>
+							<Param name="Enabled" T="BOOL" default="1" value="1"/>
+						</Params>
+						<Params name="Input">
+							<ParamChoice name="Input Source" default="0:1" value="3:4" storeChoices="0"/>
+							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
+							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
+						</Params>
+						<Params name="Output">
+							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<ValueRange name="minMax" min="-1" max="1"/>
+								<ValueRange name="startStop" min="-1" max="1"/>
+							</ParamRange>
+							<ParamRange name="Contrast" T="DOUBLE" default="0" value="0">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<ValueRange name="minMax" min="-1" max="1"/>
+								<ValueRange name="startStop" min="-1" max="1"/>
+							</ParamRange>
+							<ParamRange name="Red" T="DOUBLE" default="0" value="0">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<ValueRange name="minMax" min="-1" max="1"/>
+								<ValueRange name="startStop" min="-1" max="1"/>
+							</ParamRange>
+							<ParamRange name="Green" T="DOUBLE" default="0" value="0">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<ValueRange name="minMax" min="-1" max="1"/>
+								<ValueRange name="startStop" min="-1" max="1"/>
+							</ParamRange>
+							<ParamRange name="Blue" T="DOUBLE" default="0" value="0">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<ValueRange name="minMax" min="-1" max="1"/>
+								<ValueRange name="startStop" min="-1" max="1"/>
+							</ParamRange>
+							<Param name="Is Key" T="BOOL" default="0" value="0"/>
+							<Param name="Black BG" T="BOOL" default="0" value="0"/>
+						</Params>
+						<InputRect orientation="0">
+							<v x="695.546875" y="507.13397216796875"/>
+							<v x="1215.389892578125" y="507.13397216796875"/>
+							<v x="1215.389892578125" y="1046.996826171875"/>
+							<v x="695.546875" y="1046.996826171875"/>
+						</InputRect>
+						<OutputRect orientation="0">
+							<v x="728" y="584.758056640625"/>
+							<v x="1228" y="584.758056640625"/>
+							<v x="1228" y="1121"/>
+							<v x="728" y="1121"/>
+						</OutputRect>
+						<InputContour closed="1">
+							<points>
+								<v x="842.168212890625" y="1027.524658203125"/>
+								<v x="828.670654296875" y="1019.218505859375"/>
+								<v x="779.5257568359375" y="935.11846923828125"/>
+								<v x="729.950927734375" y="795.0118408203125"/>
+								<v x="695.546875" y="701.80908203125"/>
+								<v x="701.48931884765625" y="655.20806884765625"/>
+								<v x="704.906982421875" y="515.4810791015625"/>
+								<v x="729.9666748046875" y="520.7967529296875"/>
+								<v x="766.79693603515625" y="520.7967529296875"/>
+								<v x="874.25" y="519.278076171875"/>
+								<v x="1040.9559326171875" y="515.96600341796875"/>
+								<v x="1163.501220703125" y="513.758056640625"/>
+								<v x="1199.9337158203125" y="514.862060546875"/>
+								<v x="1215.389892578125" y="507.134002685546875"/>
+								<v x="1214.65380859375" y="709.904541015625"/>
+								<v x="1211.341796875" y="715.7926025390625"/>
+								<v x="1128.9090576171875" y="957.57159423828125"/>
+								<v x="1089.1644287109375" y="1005.4124755859375"/>
+								<v x="1074.076171875" y="1016.45257568359375"/>
+								<v x="1072.604248046875" y="1012.404541015625"/>
+								<v x="1011.1474609375" y="1046.9969482421875"/>
+								<v x="909.94598388671875" y="1046.629150390625"/>
+								<v x="874.24951171875" y="1030.4368896484375"/>
+								<v x="850.3292236328125" y="1025.65283203125"/>
+							</points>
+							<segments>LLLLLLLLLLLLLLLLLLLLLLLL</segments>
+						</InputContour>
+						<OutputContour closed="1">
+							<points>
+								<v x="856.168212890625" y="1098.524658203125"/>
+								<v x="842.670654296875" y="1090.218505859375"/>
+								<v x="797" y="1001"/>
+								<v x="760" y="871"/>
+								<v x="728" y="772"/>
+								<v x="729" y="711"/>
+								<v x="743" y="596"/>
+								<v x="758" y="590"/>
+								<v x="799" y="593"/>
+								<v x="906" y="591"/>
+								<v x="1054.9559326171875" y="586.96600341796875"/>
+								<v x="1177.501220703125" y="584.758056640625"/>
+								<v x="1213.9337158203125" y="585.862060546875"/>
+								<v x="1228" y="589"/>
+								<v x="1227" y="780"/>
+								<v x="1214" y="797"/>
+								<v x="1145" y="1010"/>
+								<v x="1103.1644287109375" y="1076.4124755859375"/>
+								<v x="1090" y="1091"/>
+								<v x="1086" y="1084"/>
+								<v x="1018" y="1121"/>
+								<v x="923" y="1116"/>
+								<v x="885" y="1101"/>
+								<v x="864.3292236328125" y="1096.65283203125"/>
 							</points>
 							<segments>LLLLLLLLLLLLLLLLLLLLLLLL</segments>
 						</OutputContour>
@@ -3863,10 +3863,10 @@
 							<v x="787.37255859375" y="764.2918701171875"/>
 						</InputRect>
 						<OutputRect orientation="0">
-							<v x="809.37255859375" y="765.636962890625"/>
-							<v x="910.0096435546875" y="765.636962890625"/>
-							<v x="910.0096435546875" y="831.2918701171875"/>
-							<v x="809.37255859375" y="831.2918701171875"/>
+							<v x="803.37255859375" y="803.636962890625"/>
+							<v x="904.0096435546875" y="803.636962890625"/>
+							<v x="904.0096435546875" y="869.2918701171875"/>
+							<v x="803.37255859375" y="869.2918701171875"/>
 						</OutputRect>
 						<InputContour closed="1">
 							<points>
@@ -3883,14 +3883,14 @@
 						</InputContour>
 						<OutputContour closed="1">
 							<points>
-								<v x="809.37255859375" y="789.46539306640625"/>
-								<v x="830.41253662109375" y="765.636962890625"/>
-								<v x="889.22314453125" y="773.4952392578125"/>
-								<v x="910.0096435546875" y="795.29571533203125"/>
-								<v x="897.0814208984375" y="824.19403076171875"/>
-								<v x="855.25494384765625" y="831.2918701171875"/>
-								<v x="832.44049072265625" y="822.673095703125"/>
-								<v x="814.18890380859375" y="794.02825927734375"/>
+								<v x="803.37255859375" y="827.46539306640625"/>
+								<v x="824.41253662109375" y="803.636962890625"/>
+								<v x="883.22314453125" y="811.4952392578125"/>
+								<v x="904.0096435546875" y="833.29571533203125"/>
+								<v x="891.0814208984375" y="862.19403076171875"/>
+								<v x="849.25494384765625" y="869.2918701171875"/>
+								<v x="826.44049072265625" y="860.673095703125"/>
+								<v x="808.18890380859375" y="832.02825927734375"/>
 							</points>
 							<segments>LLLLLLLL</segments>
 						</OutputContour>
@@ -3952,10 +3952,10 @@
 							<v x="1025.461181640625" y="752.52288818359375"/>
 						</InputRect>
 						<OutputRect orientation="0">
-							<v x="1041.461181640625" y="768.17034912109375"/>
-							<v x="1139.732421875" y="768.17034912109375"/>
-							<v x="1139.732421875" y="822.52288818359375"/>
-							<v x="1041.461181640625" y="822.52288818359375"/>
+							<v x="1044.461181640625" y="807.17034912109375"/>
+							<v x="1142.732421875" y="807.17034912109375"/>
+							<v x="1142.732421875" y="861.52288818359375"/>
+							<v x="1044.461181640625" y="861.52288818359375"/>
 						</OutputRect>
 						<InputContour closed="1">
 							<points>
@@ -3973,15 +3973,15 @@
 						</InputContour>
 						<OutputContour closed="1">
 							<points>
-								<v x="1041.461181640625" y="801.89801025390625"/>
-								<v x="1069.3653564453125" y="773.02325439453125"/>
-								<v x="1096.2989501953125" y="768.17034912109375"/>
-								<v x="1139.732421875" y="770.5968017578125"/>
-								<v x="1137.791259765625" y="789.52313232421875"/>
-								<v x="1123.7178955078125" y="815.2435302734375"/>
-								<v x="1102.607666015625" y="821.55230712890625"/>
-								<v x="1067.909423828125" y="822.52288818359375"/>
-								<v x="1048.2552490234375" y="808.449462890625"/>
+								<v x="1044.461181640625" y="840.89801025390625"/>
+								<v x="1072.3653564453125" y="812.02325439453125"/>
+								<v x="1099.2989501953125" y="807.17034912109375"/>
+								<v x="1142.732421875" y="809.5968017578125"/>
+								<v x="1140.791259765625" y="828.52313232421875"/>
+								<v x="1126.7178955078125" y="854.2435302734375"/>
+								<v x="1105.607666015625" y="860.55230712890625"/>
+								<v x="1070.909423828125" y="861.52288818359375"/>
+								<v x="1051.2552490234375" y="847.449462890625"/>
 							</points>
 							<segments>LLLLLLLLL</segments>
 						</OutputContour>
