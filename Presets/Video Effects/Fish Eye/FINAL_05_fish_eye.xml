@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="FINAL_05_fish_eye" uniqueId="A123" className="FishEye" default="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
+	<RenderPass storage="0" name="FishEye" type="DryWetEffect" uniqueTypeId="A123" uniqueId="1673813260832" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+			<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<AnimationSettings name="AnimationSettings" uniqueId="1674167204657"/>
+		<View name="View" folded="1"/>
+		<RenderPass name="FishEye" type="FishEye" uniqueTypeId="A123" uniqueId="1673813260827" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+				<ParamRange name="FishEye" T="DOUBLE" default="0.5" value="0.5">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="Black BG" T="BOOL" default="0" value="0"/>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1674167204652"/>
+			<View name="View"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" T="UINT64" default="67464115" value="67464115" storeChoices="0"/>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1674167204659"/>
+			<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1673813260838" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="defaultRange" min="0" max="1"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+				<AnimationSettings name="AnimationSettings" uniqueId="1674167205444"/>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

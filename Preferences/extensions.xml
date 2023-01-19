@@ -6,7 +6,10 @@
 			<Items/>
 		</List>
 		<List type="Effect">
-			<Items/>
+			<Items>
+				<Item uniqueId="A132" open="0"/>
+				<Item uniqueId="A139" open="0"/>
+			</Items>
 		</List>
 	</Lists>
 </ExtensionListInspector>

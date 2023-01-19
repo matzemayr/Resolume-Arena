@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="FINAL_05_goo" uniqueId="sy06" className="Goo" default="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
+	<RenderPass storage="0" name="Goo" type="DryWetEffect" uniqueTypeId="sy06" uniqueId="1673813261026" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+			<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<AnimationSettings name="AnimationSettings" uniqueId="1674167204673"/>
+		<View name="View" folded="1"/>
+		<RenderPass name="Goo" type="Goo" uniqueTypeId="sy06" uniqueId="1673813261016" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+				<ParamRange name="Resolution" T="DOUBLE" default="32" value="32">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.22580645161290321954"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="4" max="128"/>
+					<ValueRange name="minMax" min="4" max="128"/>
+					<ValueRange name="startStop" min="4" max="128"/>
+				</ParamRange>
+				<ParamRange name="Speed" T="DOUBLE" default="0.14000000059604644775" value="0.26976419151376146432">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.26976419151376146432"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="MaxDistortionX" T="DOUBLE" default="0.14000000059604644775" value="0.31995412844036696942">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.31995412844036696942"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="MaxDistortionY" T="DOUBLE" default="0.14000000059604644775" value="0.50313575114678898981">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.50313575114678898981"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="MaxDistortionZ" T="DOUBLE" default="0" value="0.29280748279816515289">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.29280748279816515289"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Shade" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="Black BG" T="BOOL" default="0" value="0"/>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1674167204663"/>
+			<View name="View"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" T="UINT64" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1674167204675"/>
+			<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1673813261032" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="defaultRange" min="0" max="1"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+				<AnimationSettings name="AnimationSettings" uniqueId="1674167205448"/>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

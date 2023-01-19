@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="FINAL_eyes_connected" uniqueId="17122039101699797593" className="TransformEffect" default="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
+	<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1674158098503" baseType="Effect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+			<ParamRange name="Position X" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				<ValueRange name="minMax" min="-16384" max="16384"/>
+				<ValueRange name="startStop" min="-16384" max="16384"/>
+			</ParamRange>
+			<ParamRange name="Position Y" T="DOUBLE" default="0" value="-28.5078125">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.49913001060485839844"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				<ValueRange name="minMax" min="-16384" max="16384"/>
+				<ValueRange name="startStop" min="-16384" max="16384"/>
+			</ParamRange>
+			<ParamRange name="Scale" T="DOUBLE" default="100" value="131.427734375">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.13142773437499999378"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1000"/>
+				<ValueRange name="minMax" min="0" max="1000"/>
+				<ValueRange name="startStop" min="0" max="1000"/>
+			</ParamRange>
+			<ParamRange name="Scale W" T="DOUBLE" default="100" value="100">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.10000000000000000555"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1000"/>
+				<ValueRange name="minMax" min="0" max="1000"/>
+				<ValueRange name="startStop" min="0" max="1000"/>
+			</ParamRange>
+			<ParamRange name="Scale H" T="DOUBLE" default="100" value="100">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.10000000000000000555"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1000"/>
+				<ValueRange name="minMax" min="0" max="1000"/>
+				<ValueRange name="startStop" min="0" max="1000"/>
+			</ParamRange>
+			<ParamRange name="Rotation X" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-180" max="180"/>
+				<ValueRange name="minMax" min="-180" max="180"/>
+				<ValueRange name="startStop" min="-180" max="180"/>
+			</ParamRange>
+			<ParamRange name="Rotation Y" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-180" max="180"/>
+				<ValueRange name="minMax" min="-180" max="180"/>
+				<ValueRange name="startStop" min="-180" max="180"/>
+			</ParamRange>
+			<ParamRange name="Rotation Z" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-180" max="180"/>
+				<ValueRange name="minMax" min="-180" max="180"/>
+				<ValueRange name="startStop" min="-180" max="180"/>
+			</ParamRange>
+			<ParamRange name="Anchor X" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-8192" max="8192"/>
+				<ValueRange name="minMax" min="-8192" max="8192"/>
+				<ValueRange name="startStop" min="-8192" max="8192"/>
+			</ParamRange>
+			<ParamRange name="Anchor Y" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-8192" max="8192"/>
+				<ValueRange name="minMax" min="-8192" max="8192"/>
+				<ValueRange name="startStop" min="-8192" max="8192"/>
+			</ParamRange>
+			<ParamRange name="Anchor Z" T="DOUBLE" default="0" value="0">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="-8192" max="8192"/>
+				<ValueRange name="minMax" min="-8192" max="8192"/>
+				<ValueRange name="startStop" min="-8192" max="8192"/>
+			</ParamRange>
+		</Params>
+		<AnimationSettings name="AnimationSettings" uniqueId="1674158098504"/>
+		<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+	</RenderPass>
+</Preset>
+

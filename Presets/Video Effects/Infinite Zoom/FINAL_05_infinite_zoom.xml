@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="FINAL_05_infinite_zoom" uniqueId="P205" className="InfiniteZoom" default="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="13" microVersion="2" revision="17774"/>
+	<RenderPass storage="0" name="InfiniteZoom" type="DryWetEffect" uniqueTypeId="P205" uniqueId="1673813261045" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+			<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<AnimationSettings name="AnimationSettings" uniqueId="1674167204688"/>
+		<View name="View" folded="1"/>
+		<RenderPass name="InfiniteZoom" type="InfiniteZoom" uniqueTypeId="P205" uniqueId="1673813261036" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+				<ParamRange name="Rotation Speed" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="-2" max="2"/>
+					<ValueRange name="minMax" min="-2" max="2"/>
+					<ValueRange name="startStop" min="-2" max="2"/>
+				</ParamRange>
+				<ParamRange name="Zoom" T="DOUBLE" default="0.050000000000000002776" value="0.034038130733944960138">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5850953268348624281"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="-0.2000000000000000111" max="0.2000000000000000111"/>
+					<ValueRange name="minMax" min="-0.2000000000000000111" max="0.2000000000000000111"/>
+					<ValueRange name="startStop" min="-0.2000000000000000111" max="0.2000000000000000111"/>
+				</ParamRange>
+				<ParamRange name="Range" T="DOUBLE" default="3" value="0.35908830275229353113">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.017954415137614677944"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="20"/>
+					<ValueRange name="minMax" min="0" max="20"/>
+					<ValueRange name="startStop" min="0" max="20"/>
+				</ParamRange>
+				<ParamRange name="Alpha" T="DOUBLE" default="0.5" value="0.50404959862385323444">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.50404959862385323444"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Num Slices" T="DOUBLE" default="10" value="11.110235091743119185">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.32536553899082570895"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="2" max="30"/>
+					<ValueRange name="minMax" min="2" max="30"/>
+					<ValueRange name="startStop" min="2" max="30"/>
+				</ParamRange>
+				<ParamEvent name="Reset" T="BOOL" default="0" value="0"/>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1674167204679"/>
+			<View name="View"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" T="UINT64" default="67464115" value="67464115" storeChoices="0"/>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1674167204690"/>
+			<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1673813261051" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="defaultRange" min="0" max="1"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+				<AnimationSettings name="AnimationSettings" uniqueId="1674167205452"/>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+
