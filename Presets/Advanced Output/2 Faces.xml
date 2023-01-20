@@ -2714,7 +2714,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="0"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="3:4" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 							<Param name="SoftEdgeEnable" T="BOOL" default="0" value="0"/>
@@ -2839,7 +2839,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="0"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="3:2" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:3" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -2942,7 +2942,7 @@
 							<Param name="Enabled" T="BOOL" default="1" value="0"/>
 						</Params>
 						<Params name="Input">
-							<ParamChoice name="Input Source" default="0:1" value="3:3" storeChoices="0"/>
+							<ParamChoice name="Input Source" default="0:1" value="3:4" storeChoices="0"/>
 							<Param name="Input Opacity" T="BOOL" default="1" value="1"/>
 							<Param name="Input Bypass/Solo" T="BOOL" default="1" value="1"/>
 						</Params>
@@ -4113,7 +4113,7 @@
 					</Slice>
 				</layers>
 				<OutputDevice>
-					<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="1920" height="1200">
+					<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="3840" height="2160">
 						<Params name="Params">
 							<ParamRange name="Delay" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
